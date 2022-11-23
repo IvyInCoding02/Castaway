@@ -50,7 +50,7 @@ body {
     color: #ffff;
     text-decoration: none;
     transition: color 0.2s;
-    &:hover{
+    &:hover {
     color: var(--accent-color);
     transition: color 0.2s; 
     }         
@@ -133,6 +133,12 @@ h1 .bold {
   }
 &__btn-image {
   padding-bottom: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+  } 
 } 
 
 &__title {
@@ -171,7 +177,7 @@ h1 .bold {
     background-color: #000000;
     padding: 50px;
     border-radius: 30px;
-  }
+  } 
   
   &__review-text {
     font-size: 36px;
@@ -184,4 +190,7 @@ h1 .bold {
     color: rgba(255, 255, 255, 0.7);
     padding-top: 20px;
   }
+}
+.lower {
+  height: 370px;
 }

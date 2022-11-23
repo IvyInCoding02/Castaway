@@ -124,6 +124,12 @@ h1 .bold {
 }
 .about__btn-image {
   padding-bottom: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.about__btn-image:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
 }
 .about__title {
   font-size: 65px;
@@ -169,4 +175,8 @@ h1 .bold {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.7);
   padding-top: 20px;
+}
+
+.lower {
+  height: 370px;
 }/*# sourceMappingURL=style.css.map */
