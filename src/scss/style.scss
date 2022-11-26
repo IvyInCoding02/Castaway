@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -58,7 +59,7 @@ button {
     transition: color 0.3s;
     &:hover {
     color: var(--accent-color);
-    transition: color 0.3s; 
+    transition: color 0.3s;
     }         
   }
 }
@@ -132,6 +133,7 @@ h1 .bold {
 
 .episode {
   padding-top: 90px;
+
 
   &__header {
     display: flex;
@@ -365,3 +367,32 @@ h1 .bold {
 }
 
 // Footer
+
+.container{
+  padding: 71px;
+  align-items: center;
+}
+
+.social-media{
+  gap: 130px;
+}
+
+
+.central-section{
+  display: flex;
+  justify-content: center;
+  gap: 146px;
+}
+
+.home-section{
+
+}
+
+.style-line{
+
+}
+
+.icons-section{
+  display: flex;
+  justify-content: flex-end;
+}
