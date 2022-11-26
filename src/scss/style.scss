@@ -377,31 +377,31 @@ h1 .bold {
 
 // Footer
 
-.container{
-  padding: 71px;
-  align-items: center;
+.footer{
+  padding: 200px 0;
+  
+
+&__logo-section{
+  margin-right: 30px;
+  line-height: 30px;
 }
 
-.social-media{
-  gap: 130px;
-}
-
-
-.central-section{
+&__central-section{
   display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  line-height:30px; 
   justify-content: center;
-  gap: 146px;
-}
-
-.home-section{
+  gap: 145px;
+  margin-top: -75px;
 
 }
 
-.style-line{
-
-}
-
-.icons-section{
+&__icons-section{
   display: flex;
-  justify-content: flex-end;
+  margin-top: -180px;
+  justify-content:end;
+  gap: 18px;
+  margin-right: 190px;
+}
 }

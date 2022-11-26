@@ -351,22 +351,26 @@ h1 .bold {
   margin-top: 16px;
 }
 
-.container {
-  padding: 71px;
-  align-items: center;
+.footer {
+  padding: 200px 0;
 }
-
-.social-media {
-  gap: 130px;
+.footer__logo-section {
+  margin-right: 30px;
+  line-height: 30px;
 }
-
-.central-section {
+.footer__central-section {
   display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
   justify-content: center;
-  gap: 146px;
+  gap: 145px;
+  margin-top: -75px;
 }
-
-.icons-section {
+.footer__icons-section {
   display: flex;
-  justify-content: flex-end;
+  margin-top: -180px;
+  justify-content: end;
+  gap: 18px;
+  margin-right: 190px;
 }/*# sourceMappingURL=style.css.map */
