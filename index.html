@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./src/scss/style.css" />
     <title>Castaway</title>
   </head>
@@ -30,7 +31,7 @@
             <img class="hero-img" src="./src/images/hero-img.jpg" alt="Hero" />
           </div>
           <div class="hero__content">
-            <h1 class="hero__title">
+            <h1 class="hero__title" data-aos="fade-up">
               Take your <br />
               podcast to the
               <span class="next">next</span>
@@ -52,79 +53,79 @@
 
       <section class="episode">
         <div class="episode__container">
-            <div class="episode__content">
-                <div class="episode__header">
-                    <h1 class="episode__headertext">Latest episodes</h1>
-                    <button class="episode__header-button">View all episodes</button>
+          <div class="episode__content">
+            <div class="episode__header">
+                <h1 class="episode__headertext">Latest episodes</h1>
+                <button class="episode__header-button">View all episodes</button>
+            </div>
+            <div class="episode__parts" data-aos="zoom-out-up">
+              <div class="episode__part">
+                <div class="episode__img">
+                  <img src="./src/images/image 1.svg" alt="sound control">
                 </div>
-                <div class="episode__parts">
-                    <div class="episode__part">
-                        <div class="episode__img">
-                            <img src="./src/images/image 1.svg" alt="sound control">
-                        </div>
-                        <div class="episode__info">
-                        <div class="episode__section">Gear</div>
-                        <span class="episode__order">Episode 3</span>
-                        <h2 class="episode__title">Should you get outboard audio gear?</h2>
-                        <div class="episode__desc">
-                            Is hardware really worth it when it comes to podcasting? The answer is...it depends.
-                             Here’s our reasons on why you might want to consider picking something up.
-                        </div>
-                        <button class="episode__button">View Episode Details</button>
-                        </div>
-                    </div>
+              <div class="episode__info">
+                <div class="episode__section">Gear</div>
+                <span class="episode__order">Episode 3</span>
+                <h2 class="episode__title">Should you get outboard audio gear?</h2>
+              <div class="episode__desc">
+                  Is hardware really worth it when it comes to podcasting? The answer is...it depends.
+                    Here’s our reasons on why you might want to consider picking something up.
+              </div>
+              <button class="episode__button">View Episode Details</button>
+              </div>
+             </div>
 
-                    <div class="episode__parts">
-                        <div class="episode__part">
-                            <div class="episode__img">
-                                <img src="./src/images/image 2.svg" alt="microphone">
-                            </div>
-                            <div class="episode__info">
-                            <div class="episode__tips-tricks">Tips & Tricks</div>
-                            <span class="episode__order">Episode 2</span>
-                            <h2 class="episode__title">Mic tricks to take you to the next level</h2>
-                            <div class="episode__desc">
-                                Stop rolling with those default settings on your mic. 
-                                These small tweaks will take you from sounding good to great.
-                            </div>
-                            <button class="episode__button">View Episode Details</button>
-                        </div>
-                    </div>
-
-                    <div class="episode__parts">
-                        <div class="episode__part">
-                            <div class="episode__img">
-                                <img src="./src/images/image 3.svg" alt="narrator">
-                            </div>
-                            <div class="episode__info">
-                            <div class="episode__section">Gear</div>
-                            <span class="episode__order">Episode 1</span>
-                            <h2 class="episode__title">The best microphone under $200</h2>
-                            <div class="episode__desc">
-                                With so many microphones on the market,
-                                how are you supposed to know what’s the best? Take a look at our top picks.
-                            </div>
-                            <button class="episode__button">View Episode Details</button>
-                        </div>
-                    </div>
-                 </div> 
+            <div class="episode__parts" data-aos="zoom-out-up">
+              <div class="episode__part">
+                <div class="episode__img">
+                  <img src="./src/images/image 2.svg" alt="microphone">
+                </div>
+                <div class="episode__info">
+                  <div class="episode__tips-tricks">Tips & Tricks</div>
+                  <span class="episode__order">Episode 2</span>
+                  <h2 class="episode__title">Mic tricks to take you to the next level</h2>
+                  <div class="episode__desc">
+                    Stop rolling with those default settings on your mic. 
+                    These small tweaks will take you from sounding good to great.
+                  </div>
+                  <button class="episode__button">View Episode Details</button>
                 </div>
             </div>
-        </section>
+
+            <div class="episode__parts" data-aos="zoom-out-up">
+              <div class="episode__part">
+                <div class="episode__img">
+                <img src="./src/images/image 3.svg" alt="narrator">
+                </div>
+                <div class="episode__info">
+                  <div class="episode__section">Gear</div>
+                  <span class="episode__order">Episode 1</span>
+                  <h2 class="episode__title">The best microphone under $200</h2>
+                  <div class="episode__desc">
+                     With so many microphones on the market,
+                     how are you supposed to know what’s the best? Take a look at our top picks.
+                  </div>
+                  <button class="episode__button">View Episode Details</button>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </section>
 
       <section class="about">
         <div class="about__container">
           <div class="about__description">
-            <img class="about__btn-image" src="./src/images/button-right.png" alt="Blue button">
+            <img class="about__btn-image" data-aos="flip-left" src="./src/images/button-right.png" alt="Blue button">
 
-            <div class="about__descr-text">
+            <div class="about__descr-text" data-aos="fade-up">
               <span class="leadin">Meet your host</span>
               <h3 class="about__title">Jacob Paulaner</h3>
-              <p class="about__text">
+              <p class="about__text" data-aos="fade-up">
                 Jacob has a background in audio engineering, and has been
                 podcasting since the early days.
               </p>
-              <p class="about__text">
+              <p class="about__text" data-aos="fade-up">
                 He’s here to help you level up your game by sharing everything
                 he’s learned along the way.
               </p>
@@ -143,7 +144,6 @@
               <div class="subscribe__updates">
                 <span class="subscribe__email">Email Newsletter</span>
                 <h3 class="subscribe__title">Subscribe for updates</h3>
-                <img class="subscribe__image" src="./src/images/design.svg" alt="Design lines">
               </div>
               <div class="subscribe__contacts"> 
                 <input type="text" placeholder="Name">
@@ -154,7 +154,6 @@
           </div>
         </div>
       </section>
-
 
       <section class="customers">
         <div class="customers__container">
@@ -238,40 +237,40 @@
     </main>
     <footer>
       <div class="container">
-          <div class="logo-section">
-              <img src="./src/images/castaway-logo.svg" alt="Footer Logo">
-             <div class="social-media">
-              <img  src="./src/icons/instagram.svg" alt="Instagram icon">
-              <img src="./src/icons/twitter.svg" alt="Twitter icon">
-              <img src="./src/icons/facebook.svg" alt="Facebook icon">
-             </div>
-             <div class="central-section">
-              <div class="home-line"> 
-                  <p>Home</p>
-                  <p>About</p>
-                  <p>Episodes</p>
-                  <p>Contact</p>
-              </div>
-              <div class="style-line">
-                  <p>Style Guide</p>
-                  <p>Instructions</p>
-                  <p>Changelog</p>
-                  <p>Credit</p>
-                  <p>Powered by Webflow</p>
-                  <p>Licenses</p>
-              </div>
-             </div>
-             <div class="icons-section">
-              <img src="./src/icons/player1.svg" alt="Spotify" />
-              <img src="./src/icons/player2.svg" alt="Pocketcasts" />
-              <img src="./src/icons/player3.svg" alt="Soundcloud" />
-              <img src="./src/icons/player4.svg" alt="iTunes" />
-              <img src="./src/icons/player5.svg" alt="Overcast" />
-             </div>
+        <div class="logo-section">
+          <img src="./src/images/castaway-logo.svg" alt="Footer Logo">
+          <div class="social-media">
+            <img  src="./src/icons/instagram.svg" alt="Instagram icon">
+            <img src="./src/icons/twitter.svg" alt="Twitter icon">
+            <img src="./src/icons/facebook.svg" alt="Facebook icon">
+            </div>
+          <div class="central-section">
+            <div class="home-line"> 
+              <p>Home</p>
+              <p>About</p>
+              <p>Episodes</p>
+              <p>Contact</p>
+            </div>
+            <div class="style-line">
+              <p>Style Guide</p>
+              <p>Instructions</p>
+              <p>Changelog</p>
+              <p>Credit</p>
+              <p>Powered by Webflow</p>
+              <p>Licenses</p>
+            </div>
           </div>
+          <div class="icons-section">
+            <img src="./src/icons/player1.svg" alt="Spotify" />
+            <img src="./src/icons/player2.svg" alt="Pocketcasts" />
+            <img src="./src/icons/player3.svg" alt="Soundcloud" />
+            <img src="./src/icons/player4.svg" alt="iTunes" />
+            <img src="./src/icons/player5.svg" alt="Overcast" />
+          </div>
+        </div>
       </div>
-  </footer> 
-  <script src="./src/main.js/script.js"></script>
- 
+    </footer> 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./src/js/script.js"></script>
   </body>
 </html>

@@ -28,6 +28,13 @@ button {
   background: var(--accent-color);
   color: var(--text-color);
   cursor: pointer;
+  &:hover{
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+  }
 }
 
 // ------Header------
@@ -271,6 +278,14 @@ h1 .bold {
     padding: 60px;
     background-color: #000000;
     border-radius: 32px;
+    position: relative;
+    &::before {
+      content: url(../images/design.svg);
+      position: absolute;
+      top: 330px;
+      left: -40px;
+    } 
+  
   }
 
   &__email {
@@ -287,13 +302,6 @@ h1 .bold {
     font-size: 72px;
     font-weight: 400;
     line-height: 80px;
-  }
-
-  &__image {
-    position: absolute;
-    left: 50px;
-    width: 145px;
-    height: 90px;
   }
 
   &__contacts {
@@ -362,6 +370,7 @@ h1 .bold {
 .lower {
   height: 370px;
   margin-top: 16px;
+
 }
 
 // Footer
