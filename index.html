@@ -16,16 +16,16 @@
         </a>
         <nav class="menu">
           <ul class="menu__links">
-            <li><a class="menu__link active" href="#">Home</a></li>
-            <li><a class="menu__link" href="#">Episodes</a></li>
-            <li><a class="menu__link" href="#">About</a></li>
-            <li><a class="menu__link" href="#">Contact</a></li>
+            <li><a class="menu__link active" href="#home">Home</a></li>
+            <li><a class="menu__link" href="#episodes">Episodes</a></li>
+            <li><a class="menu__link" href="#abouts">About</a></li>
+            <li><a class="menu__link" href="#subscribe">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero" id="home">
         <div class="hero__container">
           <div class="hero__image">
             <img class="hero-img" src="./src/images/hero-img.jpg" alt="Hero" />
@@ -52,7 +52,7 @@
         </div>
       </section>
 
-      <section class="episode">
+      <section class="episode" id="episodes">
         <div class="episode__container">
           <div class="episode__content">
             <div class="episode__header">
@@ -114,7 +114,7 @@
         </div>
       </section>
 
-      <section class="about">
+      <section class="about" id="abouts">
         <div class="about__container">
           <div class="about__description">
             <img class="about__btn-image" src="./src/images/button-right.png" alt="Blue button">
@@ -138,7 +138,7 @@
         </div>
       </section>
 
-      <section class="subscribe">
+      <section class="subscribe" id="subscribe">
         <div class="subscribe__container">
           <div class="subscribe__content">
             <div class="subscribe__info">
@@ -245,14 +245,15 @@
             <img src="./src/icons/twitter.svg" alt="Twitter icon">
             <img src="./src/icons/facebook.svg" alt="Facebook icon">
             </div>
-          <div class="central-section">
+        </div>
+          <div class="footer__central-section">
             <div class="home-line"> 
               <p>Home</p>
               <p>About</p>
               <p>Episodes</p>
               <p>Contact</p>
             </div>
-            <div class="style-line">
+            <div class="footer__style-line">
               <p>Style Guide</p>
               <p>Instructions</p>
               <p>Changelog</p>
@@ -261,14 +262,13 @@
               <p>Licenses</p>
             </div>
           </div>
-          <div class="icons-section">
+          <div class="footer__icons-section">
             <img src="./src/icons/player1.svg" alt="Spotify" />
             <img src="./src/icons/player2.svg" alt="Pocketcasts" />
             <img src="./src/icons/player3.svg" alt="Soundcloud" />
             <img src="./src/icons/player4.svg" alt="iTunes" />
             <img src="./src/icons/player5.svg" alt="Overcast" />
           </div>
-        </div>
       </div>
     </footer> 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

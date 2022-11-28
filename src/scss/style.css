@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -386,4 +387,28 @@ h1 .bold {
 .lower {
   height: 370px;
   margin-top: 16px;
+}
+
+.footer {
+  padding: 200px 0;
+}
+.footer__logo-section {
+  margin-right: 30px;
+  line-height: 30px;
+}
+.footer__central-section {
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  justify-content: center;
+  gap: 145px;
+  margin-top: -75px;
+}
+.footer__icons-section {
+  display: flex;
+  margin-top: -180px;
+  justify-content: end;
+  gap: 18px;
+  margin-right: 190px;
 }/*# sourceMappingURL=style.css.map */

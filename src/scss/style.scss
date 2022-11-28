@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -66,7 +67,7 @@ button {
     transition: color 0.3s;
     &:hover {
     color: var(--accent-color);
-    transition: color 0.3s; 
+    transition: color 0.3s;
     }         
   }
 }
@@ -185,6 +186,7 @@ h1 .bold {
 
 .episode {
   padding-top: 90px;
+
 
   &__header {
     display: flex;
@@ -430,3 +432,32 @@ h1 .bold {
 
 
 // Footer
+
+.footer{
+  padding: 200px 0;
+  
+
+&__logo-section{
+  margin-right: 30px;
+  line-height: 30px;
+}
+
+&__central-section{
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  line-height:30px; 
+  justify-content: center;
+  gap: 145px;
+  margin-top: -75px;
+
+}
+
+&__icons-section{
+  display: flex;
+  margin-top: -180px;
+  justify-content:end;
+  gap: 18px;
+  margin-right: 190px;
+}
+}
