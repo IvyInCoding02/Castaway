@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./src/scss/style.css" />
-    <link rel="stylesheet" href="./src/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Castaway</title>
   </head> 
   <body>
@@ -16,6 +16,11 @@
           <img src="./src/images/castaway-logo.svg" alt="Logo" />
         </a>
         <nav class="menu">
+          <input type="checkbox" id="check">
+          <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+          </label>
           <ul class="menu__links">
             <li><a class="menu__link active" href="#home">Home</a></li>
             <li><a class="menu__link" href="#episodes">Episodes</a></li>
@@ -238,7 +243,7 @@
       </section>   
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="footer__container">
         <div class="footer__logo-section">
           <img src="./src/images/castaway-logo.svg" alt="Footer Logo">
           <div class="social-media">

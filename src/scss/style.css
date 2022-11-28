@@ -69,7 +69,39 @@ button:hover {
   color: var(--accent-color);
   transition: color 0.3s;
 }
+.menu label #btn,
+.menu label #cancel {
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+.menu #check {
+  display: none;
+}
 
+@media (max-width: 962px) {
+  .header label #btn {
+    display: block;
+  }
+  .header .menu__links {
+    position: absolute;
+    display: block;
+    top: 100px;
+    right: 100px;
+    background: white;
+    width: 200px;
+    height: 250px;
+    z-index: 1;
+  }
+  .header .menu__link {
+    display: block;
+    margin: 20px;
+    color: black;
+  }
+}
 main {
   overflow: hidden;
 }

@@ -70,7 +70,57 @@ button {
     transition: color 0.3s;
     }         
   }
+
+label #btn,
+label #cancel{
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
 }
+
+#check{
+  display:none;
+}
+}
+
+@media(max-width:962px){
+  .header{
+    label #btn{
+      display: block;
+    }
+
+    .menu{
+      &__links{
+        position: absolute;
+        display: block;
+        top: 100px;; right:100px;
+        background: white;
+        width: 200px;
+        height: 250px;
+        z-index: 1;
+        
+        
+      }
+
+      &__link{
+        display: block;
+        margin: 20px;
+       color: black;
+      
+        
+      }
+    }
+  }
+}
+
+
+
+
+
+
 
 main {
   overflow: hidden;
@@ -461,3 +511,5 @@ h1 .bold {
   margin-right: 150px;
 }
 }
+
+
