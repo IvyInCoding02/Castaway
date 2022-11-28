@@ -38,6 +38,7 @@ button {
   }
 }
 
+
 // ------Header------
 .header {
   padding: 45px 0;
@@ -71,6 +72,10 @@ button {
   }
 }
 
+main {
+  overflow: hidden;
+}
+
 // -----Hero-----
 
 .hero {
@@ -91,7 +96,7 @@ button {
     } 
   }
   &__content {
-    padding-left: 60px; 
+    padding-left: 80px; 
   }
 
   &__title {
@@ -115,6 +120,9 @@ button {
     gap: 17px;
     cursor: pointer;
   }
+  &__contacts-icons img {
+    border-radius: 50%;
+  }
 }
 .hero-img {
   border-radius: 20px;
@@ -135,6 +143,44 @@ h1 .bold {
   font-size: 80px;
   font-weight: 700;
 }
+.spotify {
+  &:hover,
+  &:focus {
+   color: #39c539;
+   box-shadow: 0 0 24px 0 #39c539;
+  }
+}
+.pocketcasts {
+  &:hover,
+  &:focus {
+   color: #fa291a;
+   box-shadow: 0 0 24px 0 #fa291a;
+  }
+}
+.soundcloud {
+  &:hover,
+  &:focus {
+   color: #f77947;
+   box-shadow: 0 0 24px 0 #f77947;
+  }
+}
+.itunes {
+  &:hover,
+  &:focus {
+   color: #df58f1;
+   box-shadow: 0 0 24px 0 #df58f1;
+  }
+}
+.overcast {
+  &:hover,
+  &:focus {
+   color: #ffffffe0;
+   box-shadow: 0 0 24px 0 #ffffffe0;
+  }
+}
+
+
+
 
 // -----Episode-----
 
@@ -244,9 +290,9 @@ h1 .bold {
   transition: 0.2s;
   cursor: pointer;
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.2s;
-  } 
+ } 
 } 
 
 &__title {
@@ -322,6 +368,9 @@ h1 .bold {
     color:var(--text-color);
     background: #191919;
     border-style: none;
+    &:hover {
+      background-color: #212121;
+    }
   }
 
   ::placeholder {
@@ -356,6 +405,12 @@ h1 .bold {
     padding: 50px;
     border-radius: 30px;
   } 
+  &__ratings img {
+    &:hover{
+      transform: rotate(45deg);
+    
+    }
+  }
   
   &__review-text {
     font-size: 36px;
@@ -374,6 +429,7 @@ h1 .bold {
   margin-top: 16px;
 
 }
+
 
 // Footer
 
