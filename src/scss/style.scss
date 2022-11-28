@@ -325,7 +325,7 @@ h1 .bold {
 }
 
 
-// -----About-----
+// --------About--------
 
 .about {
   padding-top: 200px;
@@ -366,6 +366,7 @@ h1 .bold {
   color: var(--accent-color);
 }
 
+// --------Subscribe--------
 
 .subscribe {
   padding-top: 200px;
@@ -440,7 +441,7 @@ h1 .bold {
   }
  }
 
-// -----Customers-----
+// --------Customers--------
 
 .customers {
   padding-top: 200px;
@@ -481,35 +482,49 @@ h1 .bold {
 }
 
 
-// Footer
+// ----------Footer----------
 
-.footer{
+.footer {
   padding: 200px 0;
   
 
-&__logo-section{
-  margin-right: 30px;
-  line-height: 30px;
-}
+  &__logo-section {
+    margin-right: 30px;
+    line-height: 30px;
+    cursor: pointer;
+  }
 
-&__central-section{
-  display: flex;
-  font-size: 17px;
-  font-weight: 400;
-  line-height:30px; 
-  justify-content: center;
-  gap: 145px;
-  margin-top: -75px;
+  &__social-media {
+    display: flex;
+    gap: 18px;
+    cursor: pointer;
+  }
 
-}
+  &__central-section {
+    display: flex;
+    font-size: 17px;
+    font-weight: 400;
+    line-height:30px; 
+    justify-content: center;
+    gap: 145px;
+    margin-top: -75px;
+  }
 
-&__icons-section{
-  display: flex;
-  margin-top: -180px;
-  justify-content:end;
-  gap: 18px;
-  margin-right: 150px;
-}
+  &__link {
+    text-decoration: none;
+    color: #ffff;
+  }
+
+  &__icons-section {
+    display: flex;
+    margin-top: -180px;
+    justify-content: end;
+    gap: 18px;
+    margin-right: 150px;
+  }
+  &__icons-section img {
+    border-radius: 50%;
+  }
 }
 
 
